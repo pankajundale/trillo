@@ -1,0 +1,7 @@
+{
+  "name" : "IncomeCard",
+  "type" : "html",
+  "displayName" : "Test Card",
+  "minWidth" : "244px",
+  "cssClass" : "content-cell"
+}

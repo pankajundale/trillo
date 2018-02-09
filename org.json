@@ -1,0 +1,12 @@
+{
+  "gitConnected" : true,
+  "logos" : {
+    "logoStamp" : "/trillo/shared/static/img/logo-stamp.png"
+  },
+  "name" : "trillo",
+  "rtChoice" : "default",
+  "rtServerUrlDev" : "https://rt.trillo.io",
+  "rtServerUrlInt" : "https://rt.trillo.io",
+  "rtServerUrlProduction" : "https://rt.trillo.io",
+  "uid" : "OrgM.trillo"
+}

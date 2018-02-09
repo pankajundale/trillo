@@ -1,0 +1,29 @@
+{
+  "name" : "Navigation",
+  "type" : "navTree",
+  "hierSpecs" : [
+    {
+      "name" : "TreeNode_1",
+      "displayName" : "TreeNode_1",
+      "hierSpecs" : [
+        {
+          "name" : "TreeNode_1_1",
+          "displayName" : "TreeNode_1_1",
+          "actionSpec" : {
+            "type" : "view"
+          },
+          "type" : "treeNode"
+        }
+      ],
+      "type" : "treeNode"
+    },
+    {
+      "name" : "TreeNode_2",
+      "displayName" : "TreeNode_2",
+      "actionSpec" : {
+        "type" : "view"
+      },
+      "type" : "treeNode"
+    }
+  ]
+}

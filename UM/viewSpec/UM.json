@@ -1,0 +1,22 @@
+{
+  "name" : "UM",
+  "type" : "page",
+  "impl" : "Trillo.FlexGridView",
+  "controller" : "UMC",
+  "nextViewName" : "UserList",
+  "containerSpecs" : [
+    {
+      "name" : "ResetPasswordForm_1",
+      "alignment" : "top",
+      "autoNav" : false,
+      "reference" : "ResetPasswordForm",
+      "tag" : "userDefined",
+      "trigger" : "_initial_",
+      "type" : "view"
+    },
+    {
+      "name" : "UserList",
+      "autoNav" : false
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name" : "Navigation",
+  "type" : "nav",
+  "actionSpecs" : [
+    {
+      "name" : "menuItem1"
+    },
+    {
+      "name" : "menuItem2"
+    }
+  ],
+  "hierSpecs" : [
+    {
+      "name" : "menuItem1",
+      "displayName" : "Menu Item 1",
+      "type" : "menuItem"
+    }
+  ]
+}

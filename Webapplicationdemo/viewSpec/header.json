@@ -1,0 +1,13 @@
+{
+  "name" : "header",
+  "type" : "html",
+  "actionSpecs" : [
+    {
+      "name" : "location-pin",
+      "type" : "notYet"
+    },
+    {
+      "type" : "notYet"
+    }
+  ]
+}

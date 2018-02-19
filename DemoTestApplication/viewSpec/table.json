@@ -1,0 +1,21 @@
+{
+  "name" : "table",
+  "type" : "table",
+  "fieldSpecs" : [
+    {
+      "name" : "Priyali",
+      "displayName" : "Contact",
+      "type" : "readonly"
+    },
+    {
+      "name" : "Pankaj",
+      "displayName" : "Mobile",
+      "type" : "readonly"
+    },
+    {
+      "name" : "Kajal",
+      "displayName" : "Landline",
+      "type" : "readonly"
+    }
+  ]
+}

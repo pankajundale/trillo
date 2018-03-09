@@ -1,6 +1,21 @@
 [
   {
     "appTemplate" : "webapp",
+    "description" : "This is coffee cafe day",
+    "displayName" : "Coffee Day",
+    "htmlHeadTitle" : "Welcome to home...",
+    "keywords" : "home, coffee, day, cafe",
+    "linkedApp" : "shared",
+    "multiBranch" : false,
+    "name" : "Application_1",
+    "requiredRoles" : "none",
+    "trilloVersion" : "2.0",
+    "usingEnumsCatalog" : true,
+    "usingStringFiles" : true,
+    "usingViewSpecs" : true
+  },
+  {
+    "appTemplate" : "webapp",
     "displayName" : "Demo Application",
     "htmlHeadTitle" : "Demo Application",
     "linkedApp" : "shared",
@@ -18,7 +33,7 @@
     "displayName" : "DemoTestApplication",
     "htmlHeadTitle" : "DemoTestApplication",
     "linkedApp" : "shared",
-    "multiBranch" : false,
+    "multiBranch" : true,
     "name" : "DemoTestApplication",
     "requiredRoles" : "none",
     "trilloVersion" : "2.0",
@@ -71,6 +86,19 @@
   },
   {
     "appTemplate" : "webapp",
+    "displayName" : "TrilloChatApp",
+    "linkedApp" : "shared",
+    "multiBranch" : false,
+    "name" : "TrilloChatApp",
+    "requiredRoles" : "none",
+    "trilloVersion" : "2.0",
+    "useTestData" : true,
+    "usingEnumsCatalog" : true,
+    "usingStringFiles" : true,
+    "usingViewSpecs" : true
+  },
+  {
+    "appTemplate" : "webapp",
     "description" : "User Management",
     "displayName" : "User Management",
     "htmlHeadTitle" : "User Management",
@@ -102,10 +130,8 @@
   },
   {
     "appTemplate" : "webapp",
-    "description" : "Web application demo",
     "displayName" : "Webapplicationdemo",
     "htmlHeadTitle" : "Web application demo",
-    "keywords" : "Web application demo",
     "linkedApp" : "shared",
     "multiBranch" : true,
     "name" : "Webapplicationdemo",

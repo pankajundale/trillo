@@ -1,0 +1,78 @@
+{
+  "name" : "SideBar",
+  "type" : "html",
+  "html" : "<div class=\"sidebar\">\n  <nav class=\"sidebar-nav\">\n    <ul class=\"nav\">\n      <li class=\"nav-item\">\n        <div id=\"divSelectAccountBox\">\n          <select class=\"selectpicker\">\n            <option>\n              Sawal 6\n            </option>\n            <option>\n              Sawal 3\n            </option>\n            <option>\n              Sawal 4\n            </option>\n          </select>\n          <i class=\"fa fa-angle-down\" style=\"color:#509ee2;\"></i>\n        </div>\n      </li>\n      <li class=\"nav-item\">\n        <form class=\"Searchbox\">\n          <i class=\"fa fa-search\"></i>\n          <input class=\"\" type=\"text\" placeholder=\"Search\" style=\"width:80%;\">\n          <a href=\"#\" class=\"fa fa-plus\">\n          </a>\n        </form>\n      </li>\n      <li class=\"nav-item UserNameList\">\n        <a class=\"nav-link\" nm=\"home_\" href=\"#\">\n          <div>\n            <div id=\"divProfilePicture\">\n              <img src=\"static/img/5.png\" class=\"img-avatar\" height=\"35px\" width=\"35px\">\n            </div>\n            <span class=\"notifiCount\">10</span>\n            <div id=\"divProfileInfo\">\n              <h5>\n                Mr. Raj Koli\n              </h5>\n              <h6>\n                Lorem Ipsum is simply dummy text.\n              </h6>\n            </div>\n            <div class=\"clear\">\n            </div>\n          </div>\n        </a>\n      </li>\n      <li class=\"nav-item UserNameList\">\n        <a class=\"nav-link\" nm=\"chatPerson2\" href=\"#\">\n          <div>\n            <div id=\"divProfilePicture\">\n              <img src=\"static/img/6.png\" class=\"img-avatar\" height=\"35px\" width=\"35px\">\n            </div>\n            <div id=\"divProfileInfo\">\n              <h5>\n                Mrs. Radhika\n              </h5>\n              <h6>\n                Lorem Ipsum is simply dummy text.\n              </h6>\n            </div>\n            <div class=\"clear\">\n            </div>\n          </div>\n        </a>\n      </li>\n      <li class=\"nav-item UserNameList\">\n        <a class=\"nav-link\" nm=\"chatPerson3\" href=\"#\">\n          <div>\n            <div id=\"divProfilePicture\">\n              <img src=\"static/img/5.png\" class=\"img-avatar\" height=\"35px\" width=\"35px\">\n            </div>\n            <div id=\"divProfileInfo\">\n              <h5>\n                Mr. Amol Jadhav\n              </h5>\n              <h6>\n                Lorem Ipsum is simply dummy text.\n              </h6>\n            </div>\n            <div class=\"clear\">\n            </div>\n          </div>\n        </a>\n      </li>\n    </ul>\n  </nav>\n</div>\n\n",
+  "width" : "250px",
+  "minWidth" : "250px",
+  "actionSpecs" : [
+    {
+      "name" : "home_",
+      "type" : "view"
+    },
+    {
+      "name" : "charts",
+      "type" : "view"
+    },
+    {
+      "name" : "sales",
+      "type" : "view"
+    },
+    {
+      "name" : "revenue",
+      "type" : "notYet"
+    },
+    {
+      "name" : "users",
+      "type" : "view"
+    },
+    {
+      "name" : "logs",
+      "type" : "notYet"
+    },
+    {
+      "name" : "alerts",
+      "type" : "notYet"
+    },
+    {
+      "name" : "analytics",
+      "type" : "notYet"
+    },
+    {
+      "name" : "reports",
+      "type" : "notYet"
+    },
+    {
+      "name" : "ab-testing",
+      "type" : "notYet"
+    },
+    {
+      "name" : "recommendations",
+      "type" : "notYet"
+    },
+    {
+      "name" : "topology",
+      "type" : "notYet"
+    },
+    {
+      "name" : "calendar",
+      "type" : "notYet"
+    },
+    {
+      "name" : "wikipedia",
+      "type" : "link",
+      "url" : "https://www.wikipedia.org/"
+    },
+    {
+      "name" : "about",
+      "type" : "script"
+    },
+    {
+      "name" : "chatPerson2",
+      "type" : "view"
+    },
+    {
+      "name" : "chatPerson3",
+      "type" : "view"
+    }
+  ]
+}

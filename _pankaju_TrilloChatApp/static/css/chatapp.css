@@ -1,0 +1,483 @@
+/**
+ * GenesisUI - Bootstrap 4 Admin Template
+ * @version v1.8.4
+ * @link https://genesisui.com
+ * Copyright (c) 2017 creativeLabs ������ukasz Holeczek
+ * @license Commercial
+ */
+
+
+    .trillo-container-row{
+        background:#fff;
+    }
+
+	
+	.app-header.navbar .navbar-brand {
+		background-color: #d6dfe6;
+		background-image: url("../img/icon-trillo-logo.png");
+		border:none;
+	}
+	
+    
+	
+	.app-header.navbar{
+		background-color:#509ee2;
+	}
+	
+	.ddl-accountName{
+		background:none !important;
+		border:none !important;
+		padding:5px;
+	}
+	
+    .nav{
+        background:#f1f5f8;
+    }
+	
+	.sidebar {
+    padding: 0;
+    overflow: hidden;
+    color: #fff;
+    background: #f1f5f8;
+    border: 1px solid #d8e0e6;
+}
+	
+	.sidebar .sidebar-nav{
+		background:#3a3a59;
+	}
+	
+	.sidebar .nav .nav-item .nav-link.active{
+		background: #fff  !important;
+    	 
+	}
+	
+	.sidebar .nav .nav-item .nav-link:hover{
+		background: #fff  !important;
+    	 
+	}
+	
+	.UserNameList{
+	      border-bottom: 2px solid #d7dfe6;
+	}
+	
+	/* Comment Box Left Css Start */
+	
+	
+	#divCommentBox{
+    	width: 90%; 
+    	float:right;
+    }
+	
+	#divUserPictureBox{
+    	width: 10%;
+    	float:left;
+    	text-align:right;
+    }
+	
+	.commentBoxLeft {
+          background-color: #509ee2;
+          height: auto;
+          position: relative;
+          width: 70%;
+          border-radius:8px;
+         
+          padding:15px;
+          margin-bottom:20px;
+          left:3%;
+    }
+    .commentBoxLeft:after {
+          content: ' ';
+          height: 0;
+          position: absolute;
+          width: 0;
+          border: 10px solid transparent;
+          border-top-color: #509ee2;
+          top: 0%;
+          left: -1%;
+     
+    }
+    
+    .commentBoxLeft p{
+        margin-bottom:0px;
+        color:#fff;
+    }
+	
+	/* Comment Box Left Css End */
+	
+	
+		/* Comment Box Left Css Start */
+		
+			#divCommentBoxRight{
+    	width: 90%; 
+    	float:left;
+    }
+	
+	#divUserPictureBoxRight{
+    	width: 10%;
+    	float:right;
+    	
+    }
+		
+    	.commentBoxRight {
+      background-color: #f1f5f8;
+      height: auto;
+      position: relative;
+      width: 70%;
+      border-radius:8px;
+      
+      padding:15px;
+      float:right;
+      margin-bottom:20px;
+       right:3%;
+    }
+    .commentBoxRight:after {
+      content: ' ';
+      height: 0;
+      position: absolute;
+      width: 0;
+      border: 10px solid transparent;
+      border-top-color: #f1f5f8;
+      top: 0%;
+      right: 0%;
+      margin-right: -9px;
+    }
+    
+    .commentBoxRight p{
+        margin-bottom:0px;
+        color:#444444;
+    }
+    
+    .clear{
+	    clear:both;
+    }
+    
+	/* Comment Box Left Css End */
+	
+	/* Chat Person Name header Bar Start Css */
+	
+	#ChatPersonNameHeaderBar{
+	    Background:#fff;
+	    font-size:15px;
+	    color:#509ee2;
+	    padding:11px 0px;
+	    text-transform: uppercase;
+	    border-bottom:1px solid #d8e0e6;
+	}
+	
+	#ChatPersonNameHeaderBar .Status{
+	 font-size:10px;
+	 color:#2d9e00;
+	}
+	
+	.GreenCircle{
+	    width: 8px;
+        height: 8px;   
+        padding: 0;
+        line-height: 32px;
+        background-color:#00e100;
+        border-radius: 50em;
+	}
+    
+	#ChatPersonNameHeaderBar .divNameStatusInfo{
+	    width:70%;
+	    float:left;
+	    line-height: 33px;
+	}
+
+	#ChatPersonNameHeaderBar .divConnectDeviceOption{
+	    width:30%;
+	    float:right;
+	    text-align:right;
+	}
+	
+	.divConnectDeviceOption a{
+	    margin-left:10px;
+	   color:#bfccd8;
+	    text-decoration:none;
+	}
+		.divConnectDeviceOption a:hover{
+		     text-decoration:none;
+		    
+		}
+	
+	/* Chat Person Name header Bar End Css */
+	
+	/*Keypad start css*/
+	
+	#Keypad-footer{
+	    background:#fff;
+	    padding:10px;
+	    width:100%;
+	}
+	
+	.divMsgBar{
+	width: 70%; 
+	float:left; 
+	background:#d5dfe6;
+	border-radius:8px;
+	padding:2%;
+	margin-right:2%;
+}
+
+.divMsgBar input{
+    	background:#d5dfe6;
+}
+    
+    
+.divSendButton button{
+    padding:2% 4%;
+    border-radius:8px;
+    border:none;
+    background:#509ee2;
+    text-transform:uppercase;
+    color:#fff;
+}
+.divAttachmentFiles{
+	width: 30%;
+	float:right;
+}
+	/*Keypad End css*/
+	
+	.Searchbox{
+	    background:#fff;
+	    color:#647584;
+	    border:none;
+	    border-bottom:1px solid #d7dfe6;
+	    border-top:1px solid #d7dfe6;
+	    line-height:15px;
+	    padding:10px;
+	    width:100%;
+	}
+	
+	
+	.Searchbox input {
+        line-height: inherit;
+        background: none;
+        border: none;
+        color: #647584;
+    }
+	
+	.Searchbox a {
+	    color: #647584;
+	}
+	.Searchbox a:hover {
+	    text-decoration:none;
+	}
+	
+    #divSelectAccountBox
+	{
+        padding: 10px 20px;
+        line-height: 40px;
+    }
+    
+    #divSelectAccountBox .selectpicker{
+        background:none !important;    
+        border:none !important;
+        color:#509ee2 !important;
+        text-transform:uppercase;
+    }
+	
+	.divSelectAccountBox .fa-angle-down{
+	    color:#509ee2 !important;
+	}
+	
+	#divProfilePicture{
+width:18%; 
+float:left;
+padding:3px;
+background:#68abe5;
+border-radius:5px;
+position:absolute;
+}
+
+#divProfileInfo{
+width:80%; 
+float:right;
+
+}
+
+#divProfileInfo h5{
+ font-size:14px;
+color:#444444;
+padding-left:10px;
+width:70%;
+float:left;
+overflow:hidden;
+
+}
+
+#divProfileInfo .divChatTime{
+   width:30%;
+   float:right;
+   font-size:11px;
+   color:#444444;
+}
+
+
+#divProfileInfo h6{
+ font-size:14px;
+color:#aaaaaa;
+overflow:hidden;
+width:70%;
+padding-left:10px;
+}
+
+.UserNameList{
+   /* margin-top:20px !important;*/
+    
+}
+
+
+    
+
+    .blue option{
+        background-color:#565684;
+		border:none;
+    }
+	
+	.blue option:hover{
+        background-color:#565684 !important;
+		border:none;
+	}
+	
+	.SidebarFooterbox {
+		background: #474c77;
+		color: #bbb9de;
+		border: none;
+		line-height: 15px;
+		padding: 10px;
+		width: 100%;
+	}
+
+.SidebarFooterbox span {
+	font-size:14px;
+	color:#9a9bc1;
+}
+
+.SidebarFooterbox .fa-sign-out{
+	 color: #bbb9de;
+}
+
+.SidebarFooterbox  a, a:hover{
+	text-decoration:none;
+}
+
+.sidebar .nav .nav-item .nav-link:hover, .sidebar .nav .nav-item .navbar .dropdown-toggle:hover, .navbar .sidebar .nav .nav-item .dropdown-toggle:hover {
+          color: #fff !important;
+          background: #fff !important; }
+          
+   
+
+.fLeft{float:left}
+.fRight{float:right}
+
+.aside-menu{
+    background:#f1f5f8;
+    border:1px solid #b3b2c4;
+	padding:20px
+}
+
+
+.chatapp-button{
+    background:#509ee2 !important;
+    border:none !important;
+}
+
+.sidebar .nav .nav-item .nav-link, .sidebar .nav .nav-item .navbar .dropdown-toggle, .navbar .sidebar .nav .nav-item .dropdown-toggle {
+  
+    padding: 1.2rem 0.8rem;
+}
+
+.notifiCount{
+    position: relative; 
+    background: #e63c72;
+    color:#fff;
+    left: 14%;
+    top: -10px;
+    z-index: 99;
+    padding: 4px;
+    font-size: 9px;
+    border-radius: 10px;
+    border:1px solid #f1f5f8;
+}
+
+
+.divMsgBar a{
+    text-decoration:none;
+}
+
+.divMsgBar a:hover{
+    text-decoration:none;
+}
+
+.divMsgBar .icons{
+    color:#9badba;
+    float:right;
+    margin-right: 7px;
+    font-size: 20px;
+}
+
+.Asidebar {
+    background:#f1f5f8;
+    color:#aaaaaa !important;
+    padding:10px 20px;
+    border-radius:5px;
+}
+
+.button{
+    border: none;
+    border-radius: 8px;
+    padding: 3% 10%;
+    margin-top: 20px;
+    background: #509ee2;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.leftCommentBoxButton{
+    background: #f1f5f8;
+    color: #444444;
+}
+
+.SidebarFooterbox {
+    background: #509ee2;
+    color: #fff;
+    border: none;
+    line-height: 15px;
+    padding: 10px;
+    width: 100%;
+}
+
+.SidebarFooterbox span {
+    font-size: 14px;
+    color: #fff;
+}
+
+.SidebarFooterbox .fa-sign-out {
+    color: #fff;
+}
+
+.parentNav{
+    background:none;
+    color:#fff;
+}
+
+.parentNav .nav-link{
+    color:#fff;
+}
+
+.parentNav .nav-link:hover{
+   background:#6aace6;
+}
+
+.chatTiming{
+    margin-top:20px;
+    color:#fff;
+    font-size:12px;
+}
+
+.chatTimingRightbox{
+   color:#444444;
+}
+

@@ -39,6 +39,66 @@
               "tag" : "userDefined",
               "trigger" : "_initial_",
               "type" : "view"
+            },
+            {
+              "name" : "Row_9",
+              "alignment" : "top",
+              "autoNav" : false,
+              "childrenSpecs" : [
+                {
+                  "name" : "SideBarfooter_2",
+                  "alignment" : "center",
+                  "autoNav" : false,
+                  "flexGrow" : "1",
+                  "reference" : "SideBarfooter",
+                  "tag" : "userDefined",
+                  "trigger" : "_initial_",
+                  "type" : "view"
+                }
+              ],
+              "tag" : "userDefined",
+              "trigger" : "_initial_",
+              "type" : "row"
+            },
+            {
+              "name" : "Row_5",
+              "alignment" : "top",
+              "autoNav" : false,
+              "childrenSpecs" : [
+                {
+                  "name" : "SideBarfooter_3",
+                  "alignment" : "left",
+                  "autoNav" : false,
+                  "flexGrow" : "1",
+                  "reference" : "SideBarfooter",
+                  "tag" : "userDefined",
+                  "trigger" : "_initial_/home_",
+                  "type" : "view"
+                }
+              ],
+              "tag" : "userDefined",
+              "trigger" : "_initial_/home_",
+              "type" : "row"
+            },
+            {
+              "name" : "Row_4",
+              "alignment" : "top",
+              "autoNav" : false,
+              "childrenSpecs" : [
+                {
+                  "name" : "SideBarfooter_1",
+                  "alignment" : "center",
+                  "autoNav" : false,
+                  "flexGrow" : "1",
+                  "reference" : "SideBarfooter",
+                  "tag" : "userDefined",
+                  "trigger" : "_initial_/SideBar:chatPerson3",
+                  "type" : "view"
+                }
+              ],
+              "tag" : "userDefined",
+              "trigger" : "_initial_/SideBar:chatPerson3",
+              "type" : "row"
             }
           ],
           "cssClass" : "left-column",
@@ -117,23 +177,97 @@
               "autoNav" : false,
               "childrenSpecs" : [
                 {
-                  "name" : "CommentBox - Left Side_1",
+                  "name" : "column_2",
+                  "autoNav" : false,
+                  "childrenSpecs" : [
+                    {
+                      "name" : "Row_1",
+                      "autoNav" : false,
+                      "childrenSpecs" : [
+                        {
+                          "name" : "column_6",
+                          "alignment" : "left",
+                          "autoNav" : false,
+                          "childrenSpecs" : [
+                            {
+                              "name" : "CommentBox - Left Side_1",
+                              "alignment" : "left",
+                              "autoNav" : false,
+                              "flexGrow" : "1",
+                              "reference" : "CommentBox - Left Side",
+                              "tag" : "userDefined",
+                              "trigger" : "_initial_",
+                              "type" : "view"
+                            },
+                            {
+                              "name" : "CommentBox - Left Side_3",
+                              "alignment" : "left",
+                              "autoNav" : false,
+                              "flexGrow" : "1",
+                              "reference" : "CommentBox - Left Side",
+                              "tag" : "userDefined",
+                              "trigger" : "_initial_",
+                              "type" : "view"
+                            },
+                            {
+                              "name" : "CommentBox - Left Side - Rating_1",
+                              "alignment" : "left",
+                              "autoNav" : false,
+                              "flexGrow" : "1",
+                              "reference" : "CommentBox - Left Side - Rating",
+                              "tag" : "userDefined",
+                              "trigger" : "_initial_",
+                              "type" : "view"
+                            },
+                            {
+                              "name" : "CommentBox - Right Side_1",
+                              "alignment" : "left",
+                              "autoNav" : false,
+                              "flexGrow" : "1",
+                              "reference" : "CommentBox - Right Side",
+                              "tag" : "userDefined",
+                              "trigger" : "_initial_",
+                              "type" : "view"
+                            }
+                          ],
+                          "flexGrow" : "1",
+                          "type" : "column"
+                        }
+                      ],
+                      "tag" : "userDefined",
+                      "trigger" : "_initial_",
+                      "type" : "row"
+                    },
+                    {
+                      "name" : "Row_2",
+                      "alignment" : "center",
+                      "autoNav" : false,
+                      "childrenSpecs" : [
+                        {
+                          "name" : "Keypad bar footer_3",
+                          "alignment" : "center",
+                          "autoNav" : false,
+                          "flexGrow" : "1",
+                          "reference" : "Keypad bar footer",
+                          "tag" : "userDefined",
+                          "trigger" : "_initial_",
+                          "type" : "view"
+                        }
+                      ],
+                      "tag" : "userDefined",
+                      "trigger" : "_initial_",
+                      "type" : "row"
+                    }
+                  ],
+                  "flexGrow" : "1",
+                  "type" : "column"
+                },
+                {
+                  "name" : "column_5",
                   "alignment" : "left",
                   "autoNav" : false,
                   "flexGrow" : "1",
-                  "reference" : "CommentBox - Left Side",
-                  "tag" : "userDefined",
-                  "trigger" : "_initial_",
-                  "type" : "view"
-                },
-                {
-                  "name" : "CommentBox - Right Side_1",
-                  "autoNav" : false,
-                  "flexGrow" : "1",
-                  "reference" : "CommentBox - Right Side",
-                  "tag" : "userDefined",
-                  "trigger" : "_initial_",
-                  "type" : "view"
+                  "type" : "column"
                 },
                 {
                   "name" : "column_4",
@@ -227,28 +361,6 @@
                       "name" : "Row_3",
                       "alignment" : "left",
                       "autoNav" : false,
-                      "childrenSpecs" : [
-                        {
-                          "name" : "ClientsCard_1",
-                          "alignment" : "left",
-                          "autoNav" : false,
-                          "flexGrow" : "1",
-                          "reference" : "ClientsCard",
-                          "tag" : "userDefined",
-                          "trigger" : "_initial_/home_",
-                          "type" : "view"
-                        },
-                        {
-                          "name" : "DealsCard_1",
-                          "alignment" : "left",
-                          "autoNav" : false,
-                          "flexGrow" : "1",
-                          "reference" : "DealsCard",
-                          "tag" : "userDefined",
-                          "trigger" : "_initial_/home_",
-                          "type" : "view"
-                        }
-                      ],
                       "tag" : "userDefined",
                       "trigger" : "_initial_/home_",
                       "type" : "row"

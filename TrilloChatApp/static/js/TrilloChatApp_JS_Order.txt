@@ -1,4 +1,5 @@
 shared/static/js/shared_ns.js
+shared/static/js/sharedC.js
 shared/static/js/appC.js
 static/js/TrilloChatApp_ns.js
 static/js/Chart.min.js

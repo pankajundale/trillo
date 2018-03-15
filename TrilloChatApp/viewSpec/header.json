@@ -1,16 +1,33 @@
 {
-"name" : "header",
-"type" : "html",
-"actionSpecs" : [
-  {
-    "name" : "location-pin",
-    "type" : "notYet"
-  },
-  {
-    "type" : "notYet"
+  "name" : "header",
+  "type" : "html",
+  "html" : "<header class=\"app-header navbar\">\n  <button class=\"navbar-toggler mobile-sidebar-toggler d-lg-none\" nm=\"mobileSideBarToggler\" type=\"button\">\n    ☰\n  </button>\n  <a class=\"navbar-brand\" href=\"/\">\n  </a>\n  <ul class=\"nav navbar-nav d-md-down-none\">\n    <li class=\"nav-item\">\n      <a class=\"nav-link navbar-toggler sidebar-toggler chatapp-button\" nm=\"sideBarToggler\" href=\"#\">\n        ☰\n      </a>\n    </li>\n  </ul>\n  <ul data-container=\"\" class=\"nav nav-pills parentNav\" name=\"Nav\" nm=\"Nav\">\n    <li data-child-type=\"menuItem\" class=\"nav-item\">\n      <a data-trigger=\"\" class=\"nav-link js-menu-item\" href=\"#\" name=\"home_\" nm=\"home_\">\n       Friends\n      </a>\n    </li>\n    <li data-child-type=\"menuItem\" class=\"nav-item\">\n      <a data-trigger=\"\" class=\"nav-link js-menu-item\" href=\"#\" name=\"Family\" nm=\"animals\">\n        Family\n      </a>\n    </li>\n     <li data-child-type=\"menuItem\" class=\"nav-item\">\n      <a data-trigger=\"\" class=\"nav-link js-menu-item\" href=\"#\" name=\"Office\" nm=\"animals\">\n        Office\n      </a>\n    </li>\n  </ul>\n  <ul class=\"nav navbar-nav ml-auto chatapp-button\">\n    <li class=\"nav-item dropdown js-menu\">\n      <a class=\"nav-link nav-pill avatar\" data-toggle=\"dropdown\" href=\"#\" role=\"button\" aria-haspopup=\"true\"\n      aria-expanded=\"false\">\n        <img src=\"static/img/6.png\" class=\"img-avatar\" alt=\"admin@bootstrapmaster.com\">\n        <span class=\"badge badge-pill badge-danger\">9</span>\n      </a>\n      <div class=\"dropdown-menu dropdown-menu-right\">\n        <div class=\"dropdown-header text-center\">\n          <strong>Account</strong>\n        </div>\n        <a class=\"dropdown-item\" href=\"#\">\n          <i class=\"fa fa-bell-o\"></i>\n          Updates \n          <span class=\"badge badge-info\">42</span>\n        </a>\n        <a class=\"dropdown-item\" href=\"#\">\n          <i class=\"fa fa-envelope-o\"></i>\n          Messages \n          <span class=\"badge badge-success\">42</span>\n        </a>\n        <a class=\"dropdown-item\" href=\"#\">\n          <i class=\"fa fa-tasks\"></i>\n          Tasks \n          <span class=\"badge badge-danger\">42</span>\n        </a>\n        <a class=\"dropdown-item\" href=\"#\">\n          <i class=\"fa fa-comments\"></i>\n          Comments \n          <span class=\"badge badge-warning\">42</span>\n        </a>\n        <div class=\"dropdown-header text-center\">\n          <strong>Settings</strong>\n        </div>\n        <a class=\"dropdown-item\" href=\"#\" nm=\"myProfile\">\n          <i class=\"fa fa-user\"></i>\n          Profile\n        </a>\n        <a class=\"dropdown-item\" href=\"#\">\n          <i class=\"fa fa-wrench\"></i>\n          Settings\n        </a>\n        <a class=\"dropdown-item\" href=\"#\">\n          <i class=\"fa fa-usd\"></i>\n          Payments \n          <span class=\"badge badge-default\">42</span>\n        </a>\n        <a class=\"dropdown-item\" href=\"#\">\n          <i class=\"fa fa-file\"></i>\n          Projects \n          <span class=\"badge badge-primary\">42</span>\n        </a>\n        <div class=\"divider\">\n        </div>\n        <a class=\"dropdown-item\" href=\"#\">\n          <i class=\"fa fa-shield\"></i>\n          Lock Account\n        </a>\n        <a class=\"dropdown-item\" nm=\"_logout\" href=\"/_logout\">\n          <i class=\"fa fa-lock\"></i>\n          Logout\n        </a>\n      </div>\n    </li>\n    <!--<li class=\"nav-item d-md-down-none\">\n                          <a class=\"nav-link navbar-toggler aside-menu-toggler chatapp-button\" href=\"#\">\n                            ☰\n                          </a>\n                        </li>-->\n  </ul>\n</header>\n",
+  "actionSpecs" : [
+    {
+      "name" : "location-pin",
+      "type" : "notYet"
+    },
+    {
+      "type" : "notYet"
+    },
+    {
+      "name" : "home_"
+    },
+    {
+      "name" : "animals",
+      "type" : "view"
+    },
+    {
+      "name" : "myProfile"
+    },
+    {
+      "name" : "changeMyPassword"
+    },
+    {
+      "name" : "_logout"
+    }
+  ],
+  "css" : {
+    "z-index" : 2000
   }
-],
-"css" : {
-  "z-index" : 2000
-}
 }

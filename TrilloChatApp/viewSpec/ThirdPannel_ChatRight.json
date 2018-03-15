@@ -1,0 +1,5 @@
+{
+  "name" : "ThirdPannel_ChatRight",
+  "type" : "html",
+  "html" : "<div>\n  <div class=\"\">\n    <div id=\"divCommentBoxRight\">\n      <div class=\"commentBoxRight\">\n        <p>\n          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the\n          industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and\n          scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into\n          electronic typesetting,\n        </p>\n        <p class=\"chatTiming chatTimingRightbox\">\n          2:00 PM\n        </p>\n      </div>\n    </div>\n  </div>\n  <div>\n    <div id=\"divUserPictureBoxRight\">\n      <div>\n        <img src=\"static/img/5.png\" class=\"img-avatar\" height=\"50px\" width=\"50px\" alt=\"admin@bootstrapmaster.com\">\n      </div>\n    </div>\n  </div>\n  <div class=\"clear\">\n  </div>\n</div>\n"
+}

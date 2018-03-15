@@ -212,7 +212,7 @@
 	}
 	
 	.divMsgBar{
-	width: 70%; 
+	width: 80%; 
 	float:left; 
 	background:#d5dfe6;
 	border-radius:8px;
@@ -485,4 +485,74 @@ padding-left:10px;
 .clear{
     
     clear:both;
+}
+
+
+/**/
+.ThirdPannel_ChatLeft #divCommentBox{
+         width: 80%;
+    }
+	.ThirdPannel_ChatLeft .commentBoxLeft {
+          background-color: #c8e5ff;
+         width: 90%;
+         
+	}
+    .ThirdPannel_ChatLeft .commentBoxLeft:after {
+          content: ' ';
+          height: 0;
+          position: absolute;
+          width: 0;
+          border: 10px solid transparent;
+          border-top-color: #c8e5ff;
+          top: 0%;
+          left: -1%;
+    }
+    
+    .ThirdPannel_ChatLeft .commentBoxLeft p{
+        margin-bottom:0px;
+        color:#363636;
+    }
+	
+	 .ThirdPannel_ChatLeft	#divUserPictureBox{
+    	width: 20%;
+    	float:left;
+    	text-align:right;
+    }
+    
+    
+.ThirdPannel_ChatRight	#divCommentBoxRight{
+    	width: 80%; 
+    }
+	
+	.divUserPictureBoxRight1{
+    	width: 20% !important;
+    }
+		
+   .ThirdPannel_ChatRight 	.commentBoxRight {
+      background-color: #d8e0e7;
+      width: 90%;
+     
+    }
+.ThirdPannel_ChatRight    .commentBoxRight:after {
+      content: ' ';
+      height: 0;
+      position: absolute;
+      width: 0;
+      border: 10px solid transparent;
+      border-top-color: #d8e0e7;
+      top: 0%;
+      right: 0%;
+      margin-right: -9px;
+    }
+    
+.ThirdPannel_ChatRight   .commentBoxRight p{
+        margin-bottom:0px;
+        color:#444444;
+    }    
+/**/
+
+.aside-menu{
+    background:#fff;
+    border:none;
+    border-left:none;
 }

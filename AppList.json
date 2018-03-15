@@ -144,10 +144,7 @@
   },
   {
     "appTemplate" : "webapp",
-    "description" : "TrilloChatApp",
     "displayName" : "TrilloChatApp",
-    "htmlHeadTitle" : "TrilloChatApp",
-    "keywords" : "TrilloChatApp",
     "linkedApp" : "shared",
     "multiBranch" : true,
     "name" : "TrilloChatApp",

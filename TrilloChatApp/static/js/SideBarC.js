@@ -2,18 +2,18 @@
 
 (function() {
 
-  TrilloChatApp.SideBarC = Trillo.inherits(Shared.SharedC, function(viewSpec) {
-    Shared.SharedC.call(this, viewSpec);
+  TrilloChatApp.SideBarC = Trillo.inherits(Trillo.Controller, function(viewSpec) {
+    Trillo.Controller.call(this, viewSpec);
   });
 
   var SideBarC = TrilloChatApp.SideBarC.prototype;
-  var SharedC = Shared.SharedC.prototype;
+  var Controller = Trillo.Controller.prototype;
 
   SideBarC.handleAction = function(actionName, selectedObj, $e, targetController) {
-    return SharedC.handleAction.call(this, actionName, selectedObj, $e, targetController);
-  };
-  
-  SideBarC.postViewShown = function(view) {
-    SharedC.postViewShown.call(this, view);
+    if (actionName === "about") {
+      $("#about").modal("show");
+      return true;
+    }
+    return Controller.handleAction.call(this, actionName, selectedObj, $e, targetController);
   };
 })();

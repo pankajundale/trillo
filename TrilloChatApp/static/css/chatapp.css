@@ -64,13 +64,14 @@
 	
 	
 	#divCommentBox{
-    	width: 95%; 
+    	width: 90%; 
     	float:right;
     }
 	
 	#divUserPictureBox{
-    	width: 5%;
+    	width: 10%;
     	float:left;
+    	text-align:right;
     }
 	
 	.commentBoxLeft {
@@ -79,7 +80,7 @@
           position: relative;
           width: 70%;
           border-radius:8px;
-          box-shadow: 5px 5px 5px #dadada;
+         
           padding:15px;
           margin-bottom:20px;
           left:3%;
@@ -107,12 +108,12 @@
 		/* Comment Box Left Css Start */
 		
 			#divCommentBoxRight{
-    	width: 92%; 
+    	width: 90%; 
     	float:left;
     }
 	
 	#divUserPictureBoxRight{
-    	width: 8%;
+    	width: 10%;
     	float:right;
     	
     }
@@ -123,7 +124,7 @@
       position: relative;
       width: 70%;
       border-radius:8px;
-      box-shadow: 5px 5px 5px #dadada;
+      
       padding:15px;
       float:right;
       margin-bottom:20px;
@@ -158,12 +159,15 @@
 	    Background:#fff;
 	    font-size:15px;
 	    color:#509ee2;
-	    margin-bottom:20px;
+	    padding:11px 0px;
 	    text-transform: uppercase;
+	    border-bottom:1px solid #d8e0e6;
+	    margin-bottom:15px;
 	}
 	
 	#ChatPersonNameHeaderBar .Status{
 	 font-size:10px;
+	 color:#2d9e00;
 	}
 	
 	.GreenCircle{
@@ -176,12 +180,13 @@
 	}
     
 	#ChatPersonNameHeaderBar .divNameStatusInfo{
-	    width:80%;
+	    width:70%;
 	    float:left;
+	    line-height: 33px;
 	}
 
 	#ChatPersonNameHeaderBar .divConnectDeviceOption{
-	    width:20%;
+	    width:30%;
 	    float:right;
 	    text-align:right;
 	}
@@ -207,10 +212,27 @@
 	}
 	
 	.divMsgBar{
-	width: 70%; 
+	width: 80%; 
 	float:left; 
+	background:#d5dfe6;
+	border-radius:8px;
+	padding:2%;
+	margin-right:2%;
 }
 
+.divMsgBar input{
+    	background:#d5dfe6;
+}
+    
+    
+.divSendButton button{
+    padding:2% 4%;
+    border-radius:8px;
+    border:none;
+    background:#509ee2;
+    text-transform:uppercase;
+    color:#fff;
+}
 .divAttachmentFiles{
 	width: 30%;
 	float:right;
@@ -245,7 +267,7 @@
 	
     #divSelectAccountBox
 	{
-        padding: 10px 20px;
+       
         line-height: 40px;
     }
     
@@ -276,16 +298,28 @@ float:right;
 }
 
 #divProfileInfo h5{
- font-size:16px;
+ font-size:14px;
 color:#444444;
 padding-left:10px;
+width:70%;
+float:left;
+overflow:hidden;
+
 }
+
+#divProfileInfo .divChatTime{
+   width:30%;
+   float:right;
+   font-size:11px;
+   color:#444444;
+}
+
 
 #divProfileInfo h6{
  font-size:14px;
 color:#aaaaaa;
 overflow:hidden;
-width:90%;
+width:70%;
 padding-left:10px;
 }
 
@@ -369,3 +403,156 @@ padding-left:10px;
 }
 
 
+.divMsgBar a{
+    text-decoration:none;
+}
+
+.divMsgBar a:hover{
+    text-decoration:none;
+}
+
+.divMsgBar .icons{
+    color:#9badba;
+    float:right;
+    margin-right: 7px;
+    font-size: 20px;
+}
+
+.Asidebar {
+    background:#f1f5f8;
+    color:#aaaaaa !important;
+    padding:10px 20px;
+    border-radius:5px;
+}
+
+.button{
+    border: none;
+    border-radius: 8px;
+    padding: 3% 10%;
+    margin-top: 20px;
+    background: #509ee2;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.leftCommentBoxButton{
+    background: #f1f5f8;
+    color: #444444;
+}
+
+.SidebarFooterbox {
+    background: #509ee2;
+    color: #fff;
+    border: none;
+    line-height: 15px;
+    padding: 10px;
+    width: 100%;
+}
+
+.SidebarFooterbox span {
+    font-size: 14px;
+    color: #fff;
+}
+
+.SidebarFooterbox .fa-sign-out {
+    color: #fff;
+}
+
+.parentNav{
+    background:none;
+    color:#fff;
+}
+
+.parentNav .nav-link{
+    color:#fff;
+}
+
+.parentNav .nav-link:hover{
+   background:#6aace6;
+}
+
+.chatTiming{
+    margin-top:20px;
+    color:#fff;
+    font-size:12px;
+}
+
+.chatTimingRightbox{
+   color:#444444;
+}
+
+.clear{
+    
+    clear:both;
+}
+
+
+/**/
+.ThirdPannel_ChatLeft #divCommentBox{
+         width: 80%;
+    }
+	.ThirdPannel_ChatLeft .commentBoxLeft {
+          background-color: #c8e5ff;
+         width: 90%;
+         
+	}
+    .ThirdPannel_ChatLeft .commentBoxLeft:after {
+          content: ' ';
+          height: 0;
+          position: absolute;
+          width: 0;
+          border: 10px solid transparent;
+          border-top-color: #c8e5ff;
+          top: 0%;
+          left: -1%;
+    }
+    
+    .ThirdPannel_ChatLeft .commentBoxLeft p{
+        margin-bottom:0px;
+        color:#363636;
+    }
+	
+	 .ThirdPannel_ChatLeft	#divUserPictureBox{
+    	width: 20%;
+    	float:left;
+    	text-align:right;
+    }
+    
+    
+.ThirdPannel_ChatRight	#divCommentBoxRight{
+    	width: 80%; 
+    }
+	
+	.divUserPictureBoxRight1{
+    	width: 20% !important;
+    }
+		
+   .ThirdPannel_ChatRight 	.commentBoxRight {
+      background-color: #d8e0e7;
+      width: 90%;
+     
+    }
+.ThirdPannel_ChatRight    .commentBoxRight:after {
+      content: ' ';
+      height: 0;
+      position: absolute;
+      width: 0;
+      border: 10px solid transparent;
+      border-top-color: #d8e0e7;
+      top: 0%;
+      right: 0%;
+      margin-right: -9px;
+    }
+    
+.ThirdPannel_ChatRight   .commentBoxRight p{
+        margin-bottom:0px;
+        color:#444444;
+    }    
+/**/
+
+.aside-menu{
+    background:#fff;
+    border:none;
+    border-left:none;
+}

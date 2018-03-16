@@ -219,6 +219,16 @@
                       "type" : "row"
                     },
                     {
+                      "name" : "LinkedinProfile_1",
+                      "alignment" : "center",
+                      "autoNav" : false,
+                      "flexGrow" : "1",
+                      "reference" : "LinkedinProfile",
+                      "tag" : "userDefined",
+                      "trigger" : "_initial_/header:LinkdinProfile",
+                      "type" : "view"
+                    },
+                    {
                       "name" : "Row_1",
                       "autoNav" : false,
                       "childrenSpecs" : [

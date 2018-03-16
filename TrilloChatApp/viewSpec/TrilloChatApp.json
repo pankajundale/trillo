@@ -39,6 +39,66 @@
               "tag" : "userDefined",
               "trigger" : "_initial_",
               "type" : "view"
+            },
+            {
+              "name" : "Row_9",
+              "alignment" : "top",
+              "autoNav" : false,
+              "childrenSpecs" : [
+                {
+                  "name" : "SideBarfooter_7",
+                  "alignment" : "center",
+                  "autoNav" : false,
+                  "flexGrow" : "1",
+                  "reference" : "SideBarfooter",
+                  "tag" : "userDefined",
+                  "trigger" : "_initial_/home_",
+                  "type" : "view"
+                }
+              ],
+              "tag" : "userDefined",
+              "trigger" : "_initial_/home_",
+              "type" : "row"
+            },
+            {
+              "name" : "Row_5",
+              "alignment" : "top",
+              "autoNav" : false,
+              "childrenSpecs" : [
+                {
+                  "name" : "SideBarfooter_6",
+                  "alignment" : "center",
+                  "autoNav" : false,
+                  "flexGrow" : "1",
+                  "reference" : "SideBarfooter",
+                  "tag" : "userDefined",
+                  "trigger" : "_initial_/SideBar:chatPerson2",
+                  "type" : "view"
+                }
+              ],
+              "tag" : "userDefined",
+              "trigger" : "_initial_/SideBar:chatPerson2",
+              "type" : "row"
+            },
+            {
+              "name" : "Row_4",
+              "alignment" : "top",
+              "autoNav" : false,
+              "childrenSpecs" : [
+                {
+                  "name" : "SideBarfooter_1",
+                  "alignment" : "center",
+                  "autoNav" : false,
+                  "flexGrow" : "1",
+                  "reference" : "SideBarfooter",
+                  "tag" : "userDefined",
+                  "trigger" : "_initial_/SideBar:chatPerson3",
+                  "type" : "view"
+                }
+              ],
+              "tag" : "userDefined",
+              "trigger" : "_initial_/SideBar:chatPerson3",
+              "type" : "row"
             }
           ],
           "cssClass" : "left-column",
@@ -50,28 +110,6 @@
           "name" : "titleAndContentArea",
           "autoNav" : false,
           "childrenSpecs" : [
-            {
-              "name" : "titleBar",
-              "autoNav" : false,
-              "childrenSpecs" : [
-                {
-                  "name" : "ChatPersonName - Header_1",
-                  "alignment" : "left",
-                  "autoNav" : false,
-                  "flexGrow" : "1",
-                  "reference" : "ChatPersonName - Header",
-                  "tag" : "userDefined",
-                  "trigger" : "_initial_",
-                  "type" : "view"
-                }
-              ],
-              "css" : {
-                "designTimeHeight" : "30px",
-                "padding" : "5px 20px"
-              },
-              "tag" : "templateE",
-              "type" : "row"
-            },
             {
               "name" : "Row_6",
               "alignment" : "left",
@@ -117,23 +155,284 @@
               "autoNav" : false,
               "childrenSpecs" : [
                 {
-                  "name" : "CommentBox - Left Side_1",
+                  "name" : "column_2",
+                  "autoNav" : false,
+                  "childrenSpecs" : [
+                    {
+                      "name" : "Row_15",
+                      "alignment" : "top",
+                      "autoNav" : false,
+                      "childrenSpecs" : [
+                        {
+                          "name" : "ChatPersonName - Header_3",
+                          "alignment" : "left",
+                          "autoNav" : false,
+                          "flexGrow" : "1",
+                          "reference" : "ChatPersonName - Header",
+                          "tag" : "userDefined",
+                          "trigger" : "_initial_/SideBar:chatPerson2",
+                          "type" : "view"
+                        }
+                      ],
+                      "tag" : "userDefined",
+                      "trigger" : "_initial_/SideBar:chatPerson2",
+                      "type" : "row"
+                    },
+                    {
+                      "name" : "Row_19",
+                      "alignment" : "left",
+                      "autoNav" : false,
+                      "childrenSpecs" : [
+                        {
+                          "name" : "ChatPersonName - Header_4",
+                          "alignment" : "left",
+                          "autoNav" : false,
+                          "flexGrow" : "1",
+                          "reference" : "ChatPersonName - Header",
+                          "tag" : "userDefined",
+                          "trigger" : "_initial_/home_",
+                          "type" : "view"
+                        }
+                      ],
+                      "tag" : "userDefined",
+                      "trigger" : "_initial_/home_",
+                      "type" : "row"
+                    },
+                    {
+                      "name" : "Row_23",
+                      "alignment" : "left",
+                      "autoNav" : false,
+                      "childrenSpecs" : [
+                        {
+                          "name" : "ChatPersonName - Header_6",
+                          "alignment" : "left",
+                          "autoNav" : false,
+                          "flexGrow" : "1",
+                          "reference" : "ChatPersonName - Header",
+                          "tag" : "userDefined",
+                          "trigger" : "_initial_/SideBar:chatPerson3",
+                          "type" : "view"
+                        }
+                      ],
+                      "tag" : "userDefined",
+                      "trigger" : "_initial_/SideBar:chatPerson3",
+                      "type" : "row"
+                    },
+                    {
+                      "name" : "Row_1",
+                      "autoNav" : false,
+                      "childrenSpecs" : [
+                        {
+                          "name" : "column_10",
+                          "alignment" : "left",
+                          "autoNav" : false,
+                          "childrenSpecs" : [
+                            {
+                              "name" : "CommentBox - Left Side - Rating_1",
+                              "alignment" : "left",
+                              "autoNav" : false,
+                              "flexGrow" : "1",
+                              "reference" : "CommentBox - Left Side - Rating",
+                              "tag" : "userDefined",
+                              "trigger" : "_initial_/SideBar:chatPerson2",
+                              "type" : "view"
+                            },
+                            {
+                              "name" : "CommentBox - Right Side_1",
+                              "alignment" : "left",
+                              "autoNav" : false,
+                              "flexGrow" : "1",
+                              "reference" : "CommentBox - Right Side",
+                              "tag" : "userDefined",
+                              "trigger" : "_initial_/SideBar:chatPerson2",
+                              "type" : "view"
+                            }
+                          ],
+                          "flexGrow" : "1",
+                          "type" : "column"
+                        },
+                        {
+                          "name" : "column_6",
+                          "alignment" : "left",
+                          "autoNav" : false,
+                          "childrenSpecs" : [
+                            {
+                              "name" : "CommentBox - Left Side - Button_1",
+                              "alignment" : "left",
+                              "autoNav" : false,
+                              "flexGrow" : "1",
+                              "reference" : "CommentBox - Left Side - Button",
+                              "tag" : "userDefined",
+                              "trigger" : "_initial_/header:animals",
+                              "type" : "view"
+                            },
+                            {
+                              "name" : "CommentBox - Left Side_1",
+                              "alignment" : "left",
+                              "autoNav" : false,
+                              "flexGrow" : "1",
+                              "reference" : "CommentBox - Left Side",
+                              "tag" : "userDefined",
+                              "trigger" : "_initial_/home_",
+                              "type" : "view"
+                            },
+                            {
+                              "name" : "CommentBox - Left Side_2",
+                              "alignment" : "left",
+                              "autoNav" : false,
+                              "flexGrow" : "1",
+                              "reference" : "CommentBox - Left Side",
+                              "tag" : "userDefined",
+                              "trigger" : "_initial_/home_",
+                              "type" : "view"
+                            },
+                            {
+                              "name" : "CommentBox - Right Side - Button_1",
+                              "alignment" : "left",
+                              "autoNav" : false,
+                              "flexGrow" : "1",
+                              "reference" : "CommentBox - Right Side - Button",
+                              "tag" : "userDefined",
+                              "trigger" : "_initial_/home_",
+                              "type" : "view"
+                            },
+                            {
+                              "name" : "Avarge score_2",
+                              "alignment" : "left",
+                              "autoNav" : false,
+                              "reference" : "Avarge score",
+                              "tag" : "userDefined",
+                              "trigger" : "_initial_/header:scoreScreen",
+                              "type" : "view"
+                            },
+                            {
+                              "name" : "Recommendation card_1",
+                              "alignment" : "left",
+                              "autoNav" : false,
+                              "reference" : "Recommendation card",
+                              "tag" : "userDefined",
+                              "trigger" : "_initial_/header:scoreScreen",
+                              "type" : "view"
+                            },
+                            {
+                              "name" : "LineChartJS_1",
+                              "alignment" : "left",
+                              "autoNav" : false,
+                              "flexGrow" : "1",
+                              "reference" : "LineChartJS",
+                              "tag" : "userDefined",
+                              "trigger" : "_initial_/header:scoreScreen",
+                              "type" : "view"
+                            },
+                            {
+                              "name" : "Score Screen_2",
+                              "alignment" : "left",
+                              "autoNav" : false,
+                              "flexGrow" : "1",
+                              "reference" : "Score Screen",
+                              "tag" : "userDefined",
+                              "trigger" : "_initial_/header:scoreScreen",
+                              "type" : "view"
+                            },
+                            {
+                              "name" : "CommentBox - Right Side - Button_3",
+                              "alignment" : "left",
+                              "autoNav" : false,
+                              "flexGrow" : "1",
+                              "reference" : "CommentBox - Right Side - Button",
+                              "tag" : "userDefined",
+                              "trigger" : "_initial_/SideBar:chatPerson3",
+                              "type" : "view"
+                            },
+                            {
+                              "name" : "CommentBox - Left Side - Rating_2",
+                              "alignment" : "left",
+                              "autoNav" : false,
+                              "flexGrow" : "1",
+                              "reference" : "CommentBox - Left Side - Rating",
+                              "tag" : "userDefined",
+                              "trigger" : "_initial_/SideBar:chatPerson3",
+                              "type" : "view"
+                            }
+                          ],
+                          "flexGrow" : "1",
+                          "type" : "column"
+                        }
+                      ],
+                      "tag" : "userDefined",
+                      "trigger" : "_initial_",
+                      "type" : "row"
+                    },
+                    {
+                      "name" : "Row_20",
+                      "alignment" : "left",
+                      "autoNav" : false,
+                      "childrenSpecs" : [
+                        {
+                          "name" : "Keypad bar footer_3",
+                          "alignment" : "left",
+                          "autoNav" : false,
+                          "flexGrow" : "1",
+                          "reference" : "Keypad bar footer",
+                          "tag" : "userDefined",
+                          "trigger" : "_initial_/SideBar:chatPerson3",
+                          "type" : "view"
+                        }
+                      ],
+                      "tag" : "userDefined",
+                      "trigger" : "_initial_/SideBar:chatPerson3",
+                      "type" : "row"
+                    },
+                    {
+                      "name" : "Row_17",
+                      "alignment" : "left",
+                      "autoNav" : false,
+                      "childrenSpecs" : [
+                        {
+                          "name" : "Keypad bar footer_2",
+                          "alignment" : "left",
+                          "autoNav" : false,
+                          "flexGrow" : "1",
+                          "reference" : "Keypad bar footer",
+                          "tag" : "userDefined",
+                          "trigger" : "_initial_/home_",
+                          "type" : "view"
+                        }
+                      ],
+                      "tag" : "userDefined",
+                      "trigger" : "_initial_/home_",
+                      "type" : "row"
+                    },
+                    {
+                      "name" : "Row_16",
+                      "alignment" : "bottom",
+                      "autoNav" : false,
+                      "childrenSpecs" : [
+                        {
+                          "name" : "Keypad bar footer_1",
+                          "alignment" : "left",
+                          "autoNav" : false,
+                          "flexGrow" : "1",
+                          "reference" : "Keypad bar footer",
+                          "tag" : "userDefined",
+                          "trigger" : "_initial_/SideBar:chatPerson2",
+                          "type" : "view"
+                        }
+                      ],
+                      "tag" : "userDefined",
+                      "trigger" : "_initial_/SideBar:chatPerson2",
+                      "type" : "row"
+                    }
+                  ],
+                  "flexGrow" : "1",
+                  "type" : "column"
+                },
+                {
+                  "name" : "column_5",
                   "alignment" : "left",
                   "autoNav" : false,
                   "flexGrow" : "1",
-                  "reference" : "CommentBox - Left Side",
-                  "tag" : "userDefined",
-                  "trigger" : "_initial_",
-                  "type" : "view"
-                },
-                {
-                  "name" : "CommentBox - Right Side_1",
-                  "autoNav" : false,
-                  "flexGrow" : "1",
-                  "reference" : "CommentBox - Right Side",
-                  "tag" : "userDefined",
-                  "trigger" : "_initial_",
-                  "type" : "view"
+                  "type" : "column"
                 },
                 {
                   "name" : "column_4",
@@ -218,44 +517,6 @@
                   "tag" : "userDefined",
                   "trigger" : "_initial_/SideBar:users",
                   "type" : "view"
-                },
-                {
-                  "name" : "column_1",
-                  "autoNav" : false,
-                  "childrenSpecs" : [
-                    {
-                      "name" : "Row_3",
-                      "alignment" : "left",
-                      "autoNav" : false,
-                      "childrenSpecs" : [
-                        {
-                          "name" : "ClientsCard_1",
-                          "alignment" : "left",
-                          "autoNav" : false,
-                          "flexGrow" : "1",
-                          "reference" : "ClientsCard",
-                          "tag" : "userDefined",
-                          "trigger" : "_initial_/home_",
-                          "type" : "view"
-                        },
-                        {
-                          "name" : "DealsCard_1",
-                          "alignment" : "left",
-                          "autoNav" : false,
-                          "flexGrow" : "1",
-                          "reference" : "DealsCard",
-                          "tag" : "userDefined",
-                          "trigger" : "_initial_/home_",
-                          "type" : "view"
-                        }
-                      ],
-                      "tag" : "userDefined",
-                      "trigger" : "_initial_/home_",
-                      "type" : "row"
-                    }
-                  ],
-                  "flexGrow" : "1",
-                  "type" : "column"
                 }
               ],
               "designTimeHeight" : "100px",
@@ -276,23 +537,50 @@
           "autoNav" : false,
           "childrenSpecs" : [
             {
-              "name" : "CommentBox - Left Side_2",
+              "name" : "row_1",
               "alignment" : "top",
               "autoNav" : false,
-              "flexGrow" : "1",
-              "reference" : "CommentBox - Left Side",
-              "tag" : "userDefined",
-              "trigger" : "_initial_",
-              "type" : "view"
+              "childrenSpecs" : [
+                {
+                  "name" : "column_7",
+                  "alignment" : "top",
+                  "autoNav" : false,
+                  "childrenSpecs" : [
+                    {
+                      "name" : "ThirdPannel_ChatRight_1",
+                      "alignment" : "top",
+                      "autoNav" : false,
+                      "flexGrow" : "1",
+                      "reference" : "ThirdPannel_ChatRight",
+                      "tag" : "userDefined",
+                      "trigger" : "_initial_",
+                      "type" : "view"
+                    },
+                    {
+                      "name" : "ThirdPannel_ChatLeft_2",
+                      "alignment" : "top",
+                      "autoNav" : false,
+                      "flexGrow" : "1",
+                      "reference" : "ThirdPannel_ChatLeft",
+                      "tag" : "userDefined",
+                      "trigger" : "_initial_",
+                      "type" : "view"
+                    }
+                  ],
+                  "flexGrow" : "1",
+                  "type" : "column"
+                }
+              ],
+              "type" : "row"
             },
             {
-              "name" : "CommentBox - Right Side_2",
+              "name" : "ThirdPannel_ChatLeft_1",
               "alignment" : "top",
               "autoNav" : false,
               "flexGrow" : "1",
-              "reference" : "CommentBox - Right Side",
+              "reference" : "ThirdPannel_ChatLeft",
               "tag" : "userDefined",
-              "trigger" : "_initial_",
+              "trigger" : "_initial_/header:animals",
               "type" : "view"
             },
             {
